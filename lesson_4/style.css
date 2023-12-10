@@ -1,0 +1,162 @@
+/* RESET CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+/* STYLE */
+.header .navbar {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0 6%;
+}
+
+.header .navbar .navbar-list {
+    /* height: 100%; */
+    display: flex;
+}
+
+.header .navbar .navbar-list li {
+    font-size: 20px;
+    padding: 9px 16px;
+}
+
+.header .navbar .navbar-list li:hover {
+    background-color: #7c7c7c;
+    cursor: pointer;
+}
+
+.header .navbar .navbar-icon {
+    padding: 9px 16px;
+}
+
+.header .navbar .navbar-icon:hover {
+    background-color: #e46161;
+}
+
+
+/* CONTAINER */
+
+.section {
+    padding: 40px 0;
+}
+
+.section.slider {
+    padding: 0;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.members {
+    text-align: center;
+}
+
+.section .section-title {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section .section-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #888;
+}
+
+.members .members-desc {
+    padding: 20px 20%;
+    text-align: justify;
+}
+
+.members .members-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20%;
+}
+
+.members .members-container .box {
+    width: 30%;
+}
+
+.members .members-container .box .member-avt {
+    width: 100%;
+}
+
+.tours {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.tours .tours-container {
+    padding: 20px 20%;
+}
+
+.tours-container .tours-time {
+    background-color: #fff;
+    color: #000;
+}
+
+.tours-container .tours-time ul li {
+    padding: 8px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact h1,
+.contact h3 {
+    text-align: center;
+}
+
+.contact .contact-container {
+    padding: 20px 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-container .contact-list {
+    width: 50%;
+}
+
+.contact .contact-container .contact-input {
+    width: 50%;
+}
+
+.contact .contact-container .contact-input .name-email {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.contact .contact-container .contact-input .name-email input {
+    width: 48%;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.contact .contact-container .contact-input .message input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+}
