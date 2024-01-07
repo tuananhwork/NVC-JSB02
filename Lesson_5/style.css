@@ -4,37 +4,55 @@
     box-sizing: border-box;
 }
 
-.app {
+
+body {
     text-align: center;
-    width: 100vw;
-    height: 100vh;
-    font-size: 50px;
+    font-size: 23px;
 }
 
-.nav {
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: aquamarine;
 }
 
-.wrapper {
+
+.content {
     display: flex;
-    height: 700px;
 }
 
-.wrapper .main {
-    width: 70%;
-    height: 100%;
-    background-color: rgb(222, 103, 103);
+
+.content .maincontent {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: rgb(255, 124, 124);
+    color: #000;
+    width: 65%;
+    height: 87%;
 }
 
-.wrapper .side {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(124, 124, 241);
+
+.content .aside {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: rgb(150, 92, 243);
+    color: #000;
+    width: 35%;
+    height: 87%;
 }
 
-.foot {
-    background-color: burlywood;
-    height: 100px;
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 182, 109);
 }
